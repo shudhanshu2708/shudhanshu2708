@@ -15,14 +15,16 @@
 
 ### 🧑‍💻 About Me
 
-- 📍 Kanpur, UP, India
 - 🎓 BCA — CSJMU
 - 🔨 I learn by building things, not just watching tutorials
-- 🌱 Currently learning — FastAPI, LangChain, RAG systems
+- 🌱 Currently learning — LangChain, RAG systems
+- 📍 Kanpur, UP, India
 
 ---
 
 ### 🛠️ Tech Stack
+
+<div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -36,6 +38,8 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+</div>
 
 ---
 
