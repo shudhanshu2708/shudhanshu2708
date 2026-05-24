@@ -1,58 +1,98 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:58a6ff&height=200&section=header&text=Hey,%20I'm%20Sudanshu%20👋&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=BCA%20Student%20%7C%20Kanpur,%20UP%20🇮🇳&descAlignY=55&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,50:1f2937,100:0d1117&height=200&section=header&text=Sudhanshu%20Singh&fontSize=50&fontColor=ffffff&fontAlignY=45&desc=Code.%20Travel.%20Repeat.%20🌍&descAlignY=65&descSize=18&descColor=94a3b8"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sudhanshu~singh/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/-GitHub-ffffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/shudhanshu2708)
+
+</div>
+
+<br/>
+
+---
+
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200"/>
+
+### Hey there 👋
+
+I'm a BCA student from **Kanpur, India** who got tired of just watching tutorials.  
+So I started building instead.
+
+Not everything works the first time.  
+Most things don't.  
+That's kind of the point.
+
+<br/>
+
+---
+
+### 🛠️ Tech I Actually Use
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+
+![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+### 🚀 What I've Built
+
+<table>
+<tr>
+<td width="50%">
+
+**📩 Spam Classifier**  
+SMS spam detection — trained Naive Bayes on 5500+ messages, wrapped it in a FastAPI. Gets it right 96% of the time.  
+[→ View Project](https://github.com/shudhanshu2708/spam-classifier)
+
+</td>
+<td width="50%">
+
+**🔜 More coming...**  
+Stock market analysis, RAG chatbot, task manager API — all in progress.
+
+</td>
+</tr>
+</table>
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=shudhanshu2708&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff" height="150"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shudhanshu2708&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" height="150"/>
+
+</div>
+
+---
+
+<div align="center">
+
+**"Build it. Break it. Fix it. Ship it."**
 
 </div>
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sudhanshu~singh/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shudhanshu2708)
-
-</div>
-
----
-
-### 🧑‍💻 About Me
-
-- 🎓 BCA — CSJMU
-- 🔨 I learn by building things, not just watching tutorials
-- 🌱 Currently learning — LangChain, RAG systems
-- 📍 Kanpur, UP, India
-
----
-
-### 🛠️ Tech Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
-</div>
-
----
-
-### 🚀 Projects
-
-| Project | Description | Tech |
-|--------|-------------|------|
-| 📩 [Spam Classifier](https://github.com/shudhanshu2708/spam-classifier) | SMS spam detection with REST API | Python, Scikit-learn, FastAPI |
-
----
-
-<div align="center">
-
-*Still learning. Always building.*
-
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0d1117,50:1f2937,100:0d1117&height=100&section=footer"/>
 </div>
