@@ -67,24 +67,11 @@ SMS spam detection — trained Naive Bayes on 5500+ messages, wrapped it in a Fa
 <td width="50%">
 
 **🔜 More coming...**  
-Stock market analysis, RAG chatbot, task manager API — all in progress.
+ RAG chatbot, task manager API — all in progress.
 
 </td>
 </tr>
 </table>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=shudhanshu2708&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff" height="150"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shudhanshu2708&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" height="150"/>
-
-</div>
-
 ---
 
 <div align="center">
