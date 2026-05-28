@@ -63,13 +63,6 @@ That's kind of the point.
 SMS spam detection — trained Naive Bayes on 5500+ messages, wrapped it in a FastAPI. Gets it right 96% of the time.  
 [→ View Project](https://github.com/shudhanshu2708/spam-classifier)
 
-</td>
-<td width="50%">
-
-**🔜 More coming...**  
- RAG chatbot, task manager API — all in progress.
-
-</td>
 </tr>
 </table>
 ---
