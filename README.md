@@ -1,11 +1,11 @@
 # Hi, I'm Sudhanshu Singh 👋
 
-### Full-Stack Developer | Backend Developer | Python · FastAPI · React · PostgreSQL
+### Backend Developer | Python · FastAPI · PostgreSQL · Redis
 
-I build full-stack applications and backend systems, from e-commerce platforms with secure
+I build backend systems and full-stack applications, from e-commerce platforms with secure
 authentication and React frontends to Retrieval-Augmented Generation (RAG) pipelines. Currently
-pursuing a BCA (2024–2027) and looking for developer roles where I can keep building real,
-production-style systems.
+pursuing a BCA (2024–2027) and looking for backend developer roles where I can keep building
+real, production-style systems.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shudhanshu2708.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sudhanshu~singh/)
@@ -25,13 +25,6 @@ production-style systems.
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
 **Backend & Frameworks**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -41,6 +34,13 @@ production-style systems.
 ![Jinja](https://img.shields.io/badge/Jinja2-B41717?style=for-the-badge&logo=jinja&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 **Databases & Infra**
 
@@ -84,12 +84,11 @@ Full-stack e-commerce application with a React frontend and a FastAPI backend, b
 
 `React` `Vite` `FastAPI` `PostgreSQL` `Redis` `JWT` `Docker` `Alembic`
 
-### 📄 [DocQuery — RAG Document Q&A API](https://github.com/shudhanshu2708/DocQuery)
+### 📄 [DocQuery — RAG PDF Question Answering System](https://github.com/shudhanshu2708/DocQuery)
 
-Retrieval-Augmented Generation backend that lets users upload PDFs and get context-aware
-answers, with an ingestion pipeline for chunking, embeddings, and semantic retrieval.
+RAG-based system where you upload a PDF and ask questions in plain language. Uses local Ollama embeddings, ChromaDB with MMR retrieval, and Groq for answer generation. Answers come with source references, and it says "I don't know" when the document doesn't contain the answer. Includes a simple web UI.
 
-`FastAPI` `LangChain` `ChromaDB` `Ollama` `PostgreSQL`
+`FastAPI` `LangChain` `ChromaDB` `Groq` `Ollama` `RAG`
 
 ### 📩 [Spam Classifier — Machine Learning API](https://github.com/shudhanshu2708/Spam-Classifier)
 
