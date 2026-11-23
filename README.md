@@ -1,17 +1,45 @@
-# Hi, I'm Sudhanshu Singh 👋
+<h1 align="center">Hi, I'm Sudhanshu Singh 👋</h1>
 
-### Backend Developer | Python · FastAPI · PostgreSQL · Redis
+<h3 align="center">Backend Developer | Python · FastAPI · PostgreSQL · Redis</h3>
 
-I build backend systems and full-stack applications, from e-commerce platforms with secure
-authentication and React frontends to Retrieval-Augmented Generation (RAG) pipelines. Currently
-pursuing a BCA (2024–2027) and looking for backend developer roles where I can keep building
-real, production-style systems.
+<p align="center">
+Final-year BCA student (2024–2027) who builds production-style backend systems: secure auth, atomic checkouts, rate limiting, tested APIs and CI gates. Currently looking for SDE / backend internships.
+</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shudhanshu2708.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sudhanshu~singh/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Sudhanshu9035/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/sudhanshu9035)
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sudhanshu9035@gmail.com)
+<p align="center">
+  <a href="shudhanshu2708/shudhanshu2708.github.io"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/sudhanshuisingh"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://leetcode.com/u/Sudhanshu9035/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+  <a href="https://www.codechef.com/users/sudhanshu9035"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
+  <a href="mailto:sudhanshu9035@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+### 🛡️ [AI Guardrails Gateway](https://github.com/shudhanshu2708/AI-guardrails-gateway)
+Prompt-injection defense for tool-using LLM agents. Six layered defenses: injection detection, quarantine of untrusted content, tool privilege levels, human approval, and secret-leak filtering.
+- Attack success fell from **100% to 0%** in a 25-attack red-team suite, while **94%** of legitimate tasks still completed
+- **40 pytest tests**, plus a GitHub Actions gate that fails the build if attack success rises above 5%
+
+`FastAPI` `React` `PostgreSQL` `SQLAlchemy` `Docker` `GitHub Actions`
+
+### 🛒 [Vendly](https://github.com/shudhanshu2708/vendly)
+Full-stack e-commerce app with **24 REST endpoints** across auth, catalog, cart and orders.
+- JWT auth with 15-minute access tokens and single-use refresh tokens stored in Redis
+- Customer/admin roles through reusable FastAPI dependencies
+- **Atomic checkout:** stock check, order creation and inventory update in one PostgreSQL transaction, rolled back on any failure
+
+`FastAPI` `React` `PostgreSQL` `Redis` `Alembic` `Docker`
+
+### 🏆 [Real-Time Leaderboard](https://github.com/shudhanshu2708/realtime-leaderboard-backend)
+Live ranking app where players submit scores and see their rank update instantly.
+- Redis sorted sets for fast ranking, MySQL as the permanent record (Redis rebuilt from MySQL on startup)
+- Live top-10 updates with Server-Sent Events
+- JWT auth and per-IP rate limiting
+
+`FastAPI` `React` `Redis` `MySQL` `SSE` `Docker`
 
 ---
 
@@ -19,92 +47,55 @@ real, production-style systems.
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 **Backend & Frameworks**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=python&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-![Jinja](https://img.shields.io/badge/Jinja2-B41717?style=for-the-badge&logo=jinja&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=flat-square&logo=jinja&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 **Frontend**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 **Databases & Infra**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 **AI / ML & RAG**
 
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-Pipelines-8A2BE2?style=for-the-badge)
-![Generative AI](https://img.shields.io/badge/Generative-AI-FF4081?style=for-the-badge)
-![NLP](https://img.shields.io/badge/NLP-Text%20Classification-009688?style=for-the-badge)
+**AI / ML & LLM**
 
-**Problem Solving**
-
-[![DSA](https://img.shields.io/badge/DSA-Data%20Structures%20%26%20Algorithms-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Sudhanshu9035/)
-
-**Concepts**
-
-`REST APIs` `JWT Auth` `RAG` `Vector Databases` `Database Migrations` `Docker`
-
+![LLMs](https://img.shields.io/badge/LLM_Apps-412991?style=flat-square&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square)
+![Prompt Injection Defense](https://img.shields.io/badge/Prompt_Injection_Defense-B71C1C?style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Naive Bayes](https://img.shields.io/badge/Naive_Bayes-4CAF50?style=flat-square)
 ---
 
-## 📌 Featured Projects
+## 📊 Stats
 
-### 🛒 [Vendly — Full-Stack E-Commerce App](https://github.com/shudhanshu2708/vendly)
-
-Full-stack e-commerce application with a React frontend and a FastAPI backend, backed by PostgreSQL and Redis. Features JWT authentication with Redis-backed refresh token rotation, customer and admin roles, product management, cart, checkout, order tracking, and Alembic-managed migrations. Fully containerized with Docker.
-
-![License](https://img.shields.io/github/license/shudhanshu2708/vendly?style=flat-square)
-
-`React` `Vite` `FastAPI` `PostgreSQL` `Redis` `JWT` `Docker` `Alembic`
-
-### 📄 [DocQuery — RAG PDF Question Answering System](https://github.com/shudhanshu2708/DocQuery)
-
-RAG-based system where you upload a PDF and ask questions in plain language. Uses local Ollama embeddings, ChromaDB with MMR retrieval, and Groq for answer generation. Answers come with source references, and it says "I don't know" when the document doesn't contain the answer. Includes a simple web UI.
-
-`FastAPI` `LangChain` `ChromaDB` `Groq` `Ollama` `RAG`
-
-### 📩 [Spam Classifier — Machine Learning API](https://github.com/shudhanshu2708/Spam-Classifier)
-
-End-to-end SMS spam classification pipeline trained on 5,572 messages using TF-IDF and a
-Multinomial Naive Bayes model, achieving 97.3% accuracy, deployed as a REST API.
-
-`Python` `Scikit-learn` `Pandas` `TF-IDF`
-
----
-
-## 📊 GitHub Stats
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shudhanshu2708&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/shudhanshu2708)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shudhanshu2708&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/shudhanshu2708)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shudhanshu2708&theme=tokyonight&hide_border=true)](https://github.com/shudhanshu2708)
-
----
-
-Thanks for stopping by. Feel free to connect or check out my projects above.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shudhanshu2708&show_icons=true&theme=radical" height="160"/>
+</p>
